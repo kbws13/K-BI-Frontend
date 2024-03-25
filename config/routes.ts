@@ -4,7 +4,8 @@ export default [
     layout: false,
     routes: [{ name: '登录', path: '/user/login', component: './User/Login' }],
   },
-  { path: '/welcome', name: '欢迎', icon: 'smile', component: './Welcome' },
+  { path: '/', redirect: '/addChart' },
+  { path: '/addChart', name: '创建图表', icon: 'barChart', component: './AddChart' },
   {
     path: '/admin',
     name: '管理页',

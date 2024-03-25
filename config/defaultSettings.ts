@@ -10,6 +10,8 @@ const Settings: ProLayoutProps & {
   navTheme: 'light',
   // 拂晓蓝
   colorPrimary: '#1890ff',
+  splitMenus: false,
+  siderMenuType: 'sub',
   layout: 'mix',
   contentWidth: 'Fluid',
   fixedHeader: false,
