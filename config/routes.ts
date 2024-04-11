@@ -6,6 +6,7 @@ export default [
   },
   { path: '/', redirect: '/addChart' },
   { path: '/addChart', name: '创建图表', icon: 'barChart', component: './AddChart' },
+  { path: '/myChart', name: '我的表格', icon: 'pieChart', component: './MyChart' },
   {
     path: '/admin',
     name: '管理页',
@@ -16,7 +17,7 @@ export default [
       { path: '/admin/sub-page', name: '二级管理页', component: './Admin' },
     ],
   },
-  { name: '查询表格', icon: 'table', path: '/list', component: './TableList' },
+
   { path: '/', redirect: '/welcome' },
   { path: '*', layout: false, component: './404' },
 ];
